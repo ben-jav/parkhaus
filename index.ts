@@ -222,12 +222,6 @@ function anzahlEinfahrtAusfahrt () : void {
     console.log(`Gesamte Ausfahrten aus Parkhaus: ${gesamtAnzahlAusfahrt}`);
 }
 
-
-
-
-
-
-
 function alleAusparken () : void { 
     parkhaus.forEach(etage => {
         etage.forEach(box => {

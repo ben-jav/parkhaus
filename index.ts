@@ -224,6 +224,10 @@ function anzahlEinfahrtAusfahrt () : void {
 
 
 
+
+
+
+
 function alleAusparken () : void { 
     parkhaus.forEach(etage => {
         etage.forEach(box => {
